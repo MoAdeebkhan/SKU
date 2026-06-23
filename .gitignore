@@ -1,0 +1,85 @@
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+# It is best practice to keep dependencies out of source control
+.venv/
+venv/
+ENV/
+env/
+Active.react
+自动env/
+pip-wheel-metadata/
+
+# ==========================================
+# Secrets, Environment Variables, and Local Configs
+# ==========================================
+# Never commit your private API keys or database credentials
+.env
+.env.local
+.env.*
+!.env.example
+secrets.json
+*.podspec.lock
+
+# ==========================================
+# Distribution / Packaging / Build Artifacts
+# ==========================================
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Testing, Coverage, and Linters
+# ==========================================
+.htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints
+
+# ==========================================
+# IDEs and Text Editors (VS Code, PyCharm)
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
